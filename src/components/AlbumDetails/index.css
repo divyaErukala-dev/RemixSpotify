@@ -1,0 +1,38 @@
+.details-content {
+  flex-grow: 1;
+  min-height: 100vh;
+  background-color: #181818;
+  color: #ffffff;
+  padding: 32px;
+  font-family: 'Roboto';
+}
+
+.album-header {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.album-header img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-right: 24px;
+}
+
+.album-tracks-heading,
+.album-track-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  gap: 12px;
+}
+
+.album-tracks-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.album-track-item {
+  cursor: pointer;
+  border-bottom: 1px solid #333333;
+}

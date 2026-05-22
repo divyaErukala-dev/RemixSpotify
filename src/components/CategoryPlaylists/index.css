@@ -1,0 +1,32 @@
+.details-content {
+  flex-grow: 1;
+  min-height: 100vh;
+  background-color: #181818;
+  color: #ffffff;
+  padding: 32px;
+  font-family: 'Roboto';
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  width: 180px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.category-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.category-item img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}

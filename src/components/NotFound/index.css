@@ -1,0 +1,15 @@
+.not-found-container {
+  min-height: 100vh;
+  background-color: #181818;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.not-found-image {
+  width: 300px;
+  max-width: 80%;
+}

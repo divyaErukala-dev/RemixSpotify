@@ -1,0 +1,72 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #181818;
+  display: flex;
+}
+
+.home-content {
+  flex-grow: 1;
+  color: #ffffff;
+  padding: 32px;
+  font-family: 'Roboto';
+}
+
+.music-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.music-card {
+  width: 160px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.music-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.music-name {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.loader-container,
+.failure-view-container {
+  min-height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  flex-direction: column;
+}
+
+.failure-view-image {
+  width: 220px;
+}
+
+@media screen and (max-width: 767px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .home-content {
+    padding: 20px;
+  }
+
+  .music-card {
+    width: 45%;
+    margin-right: 12px;
+  }
+
+  .music-image {
+    width: 100%;
+    height: auto;
+  }
+}
