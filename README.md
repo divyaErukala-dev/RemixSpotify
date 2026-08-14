@@ -1,4 +1,4 @@
-# Spotify Remix App
+# Spotify Remix App 
 
 A responsive Spotify-inspired music streaming web application developed using **React JS, JavaScript, HTML5, and CSS3**. The project demonstrates practical implementation of React components, routing, authentication, API integration, state management, user interactions, and responsive web design.
 
